@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica: HTML Semántico</title>
+</head>
+<body>
+    <!-- <Header> es la sección superior de la página y generalmente incluye infrmación introductoria,
+        como el título y el menú de navegación. -->
+    <header>
+        <!-- <h1> es el título principal de la página -->
+        <h1>Bienvenidos al rincón del Alex</h1>
+    <!-- Menú de navegación -->
+     <nav>
+        <ul>
+            <li>Sobre mí:</li>
+            <li>Intereses:</li>
+            <li>Enlaces:</li>
+        </ul>
+     </nav>
+    </header>
+    <!-- <main> es la seccion principal que contiene el contenido central de la página.
+        Se recomiendo usar main solo una vez en cada página para indicar la parte más 
+        importante del documento -->
+    <main>
+        <section>
+            <h2>Sobre mi</h2>
+            <p>Me llamo Alejandro Ruiz Mendoza, pero Alex está bien. Actualmente me encuentro aprendiendo desarrollo web y etiquetas semánticas de HTML.</p>
+            <!-- Si quisiera usar un texto de prueba puedo utilizar la etiqueta "lorem" -->
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+        <section>
+            <h2>Intereses</h2>
+            <ul>
+                <li>Videojuegos</li>
+                <li>Series</li>
+                <li>Peliculas</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio error architecto molestias est incidunt eos aut totam ad tenetur atque reprehenderit, dignissimos dolorum, iure alias, corrupti inventore sapiente voluptate ea?</p>
+            <!--<Figure> arupa contenido visual como imágenes, y es común utilizarla en conjunto con
+                la etiqueta figcaption, que proporciona un título o descripción para el contenido visual.  -->
+            <figure>
+                <img src="./Images_071124/isaac.jpg" alt="The Binding of Isaac AFTERBIRTH +">
+                <figcaption>The Binding of Isaac es un juego que me encanta y le he dedicado varias horas de juego</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Enlaces</h2>
+            <p>Visita estos sitios recomendados para que sepas quién visita tu perfil y poder ganar dinero a través de Criptomonedas.</p>
+            <ul>
+<!-- a es una etiqueta de enlaces que generalmente viene acompañada del atributo href donde agregamos la dirección a la cual queremos
+ redireccionar, otro atributo comúnmente utilizado es el de target que da un control de cómo se va a abrir el enlace -->
+ <li>
+    <a href="https://youtu.be/WhbeLY3CAS0?si=3j1c8mJ4dzX5zOTu" target="_blank">Bellakeo</a>
+</li>
+<li>
+    <a href="https://gifdb.com/images/high/bobs-burgers-427-x-498-gif-e8mkgt43jpv1o5w1.webp" target="_blank">Ggg</a>
+</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright Alex 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
